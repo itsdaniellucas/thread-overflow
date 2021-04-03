@@ -1,0 +1,15 @@
+{
+    "JWT": {
+        "Secret": "vtyP1Lz8srcTp9nADh6NvAFuNuV4EoBZApyOoto1LnMslabhhocxGcr8uCuuMEj",
+        "Audience": "http://thread-overflow.io",
+        "Issuer": "ThreadOverflow"
+    },
+    "DB": {
+        "Url": "mongodb://localhost:27017/"
+    },
+    "port": 5000,
+    "CORS": {
+        "origin": "*",
+        "methods": ["GET", "POST"]
+    }
+}

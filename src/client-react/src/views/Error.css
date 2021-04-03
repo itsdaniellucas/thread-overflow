@@ -1,0 +1,71 @@
+.errorPage-body {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #424242; 
+    font-family: 'Helvetica';
+    text-align: center;
+    background-color: #ECEFF1;
+    position: absolute;
+}
+
+.errorPage-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.errorPage-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+.errorPage-title {
+    display: flex;
+    flex-direction: row;
+    font-size: 128px;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorPage-errorImage {
+    display: flex;
+    width: 128px;
+    height: 128px;
+    margin-right: 14px;
+}
+
+.errorPage-errorText {
+    display: flex;
+    margin-left: 15px;
+}
+
+.errorPage-subTitle,
+.errorPage-content,
+.errorPage-bottom {
+    color: #757575 !important;
+}
+
+.errorPage-subTitle {
+    font-size: 40px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+.errorPage-content {
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #01579B;
+}
